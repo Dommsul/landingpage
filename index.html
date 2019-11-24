@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My landing page</title>
+    <!-- This is where i have added 3 different fonts from Google's font API -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100|Quicksand:300|Slabo+27px&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- I used 3 icons to link to my social media links and i did this using font awesome -->
+    <script src="https://kit.fontawesome.com/d28cae2c95.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- This is the hero class because its where ive done a short description of myself and what i do -->
+<div class="hero">
+<h1>Dominic Sulcas</h1>
+<p class="bio">Hello, my name is Dominic and I am a computing student studying at the Univerisity of Northampton.
+    This is my Portfolio.
+</p>
+<!--This is where i have inserted my profile picture -->
+<span> <img class="profilepic"src="images/finalpic.jpg" alt="profile-pic"></span>
+<!-- Link to a timelapse that will play in the background and i had to make sure that it is muted and that it also loops infinitely-->
+<video class="video-bg" autoplay muted loop>
+    <source src="assets/21.mp4" type="video/mp4">
+</video></div>
+<section class="intro">
+  <!-- Navigation bar used to navigate around the website. The following code was used from this https://codepen.io/lizcoultersmith/pen/mddoJPJ -->
+        <nav>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                  <li class="active">
+                    <a href="#">About</a></li>
+                  <li><a href="grid.html">Portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+              </nav>
+              <!-- 3 icons that i grabbed from font awesome and that are clickable-->
+    <h2 class="intro">My social links</h2>
+    <a href="mailto:dominic.sulcas19@mynorthampton.ac.uk"><i class="fas fa-envelope"></i></a>
+    <a href="http://www.instagram.com/dommsulcas"><i class="fab fa-instagram"></i></a>
+    <a href="http://www.github.com/Dommsul"><i class="fab fa-github"></i></a>
+</section>
+</body>
+</html>
